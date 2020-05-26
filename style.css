@@ -21,11 +21,7 @@ footer {
 section {
     background-color: lightsteelblue;
     display: inline-block;
-    /*
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 20px;
-    */
+    width: 100%;
 }
 
 section h2 {
@@ -33,7 +29,8 @@ section h2 {
     font-size: 36px;
 }
 
-#about-me{
+.panel{
+    width: 70%;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 15%;
@@ -42,15 +39,49 @@ section h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: white;
     display: inline-block;
-    /*
-    color: #ffffff;
-    */
 }
-#about-me h2{
+.portfolio{
+    width: auto;
+}
+
+.panel h2{
     margin-bottom: 5px;
     color: cadetblue;
 }
-img{
+.index img{
     margin-right: 10px;
     margin-bottom: 10px;
+}
+.portfolio img{
+    margin: 20px;
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 640px)  {
+    .panel{
+        width: 100%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .panel{
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media screen and (max-width: 980px)  {
+    .panel{
+        width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
