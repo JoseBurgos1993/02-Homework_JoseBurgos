@@ -27,6 +27,36 @@ section h2 {
     display: inline-block;
 }
 
+.panel h2{
+    margin-bottom: 5px;
+    color: cadetblue;
+}
+
+.index img{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio{
+    width: auto;
+}
+.portfolio img{
+    margin: 20px;
+}
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: darkslategray;
+    color: gainsboro;
+}
+
 @media (max-width: 575px)  {
     header{
         width: 100%;
@@ -75,33 +105,4 @@ section h2 {
         margin-left: 15%;
         margin-right: 15%;
     }
-}
-.panel h2{
-    margin-bottom: 5px;
-    color: cadetblue;
-}
-
-.index img{
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-
-.portfolio{
-    width: auto;
-}
-.portfolio img{
-    margin: 20px;
-}
-.responsive{
-    max-width: 100%;
-    height: auto;
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    background-color: darkslategray;
-    color: gainsboro;
 }
