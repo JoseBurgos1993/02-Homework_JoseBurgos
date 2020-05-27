@@ -19,7 +19,7 @@ section h2 {
     font-size: 36px;
 }
 
-.panel{
+section .container{
     margin-top: 5%;
     margin-bottom: 5%;
     padding: 20px;
@@ -27,11 +27,10 @@ section h2 {
     background-color: white;
     display: inline-block;
 }
-.panel h2{
+section .container h2{
     margin-bottom: 5px;
     color: cadetblue;
 }
-
 .index img{
     margin-right: 10px;
     margin-bottom: 10px;
@@ -40,7 +39,6 @@ section h2 {
 .portfolio img{
     margin: 20px;
 }
-
 
 footer {
     padding: 30px;
@@ -62,7 +60,7 @@ footer {
         max-width: 70%;
         max-height: 70%;
     }
-    .panel{
+    section .container{
         width: 100%;
         margin-left: 0%;
         margin-right: 0%;
@@ -80,21 +78,21 @@ footer {
         max-width: 85%;
         max-height: 85%;
     }
-    .panel{
+    section .container{
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
     }
 }
 @media (min-width: 768px) {
-    .panel{
+    section .container{
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
     }
 }
 @media (min-width: 980px) {
-    .panel{
+    section .container{
         width: 70%;
         margin-left: 15%;
         margin-right: 15%;
