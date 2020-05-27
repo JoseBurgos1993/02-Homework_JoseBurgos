@@ -14,7 +14,6 @@ section {
     display: inline-block;
     width: 100%;
 }
-
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -28,7 +27,6 @@ section h2 {
     background-color: white;
     display: inline-block;
 }
-
 .panel h2{
     margin-bottom: 5px;
     color: cadetblue;
@@ -42,10 +40,7 @@ section h2 {
 .portfolio img{
     margin: 20px;
 }
-.responsive{
-    max-width: 100%;
-    height: auto;
-}
+
 
 footer {
     padding: 30px;
@@ -74,6 +69,10 @@ footer {
     }
     section div{
         width: 100%;
+    }
+    .responsive{
+        max-width: 40%;
+        max-height: 40%;
     }
 }
 @media (min-width: 576px)  {
